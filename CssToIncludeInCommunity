@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'avalon';
+    src: url('/sfsites/c/resource/Avalon');
+}
+
+#9{
+    display:none;
+}
