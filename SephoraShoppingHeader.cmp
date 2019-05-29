@@ -1,0 +1,64 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+
+    <div class="shopMenuMobileBtn">
+    	<button class="slds-button menuMobileBtn"  onclick="{!c.openMenu}">
+            <lightning:icon iconName="utility:cart" alternativeText="Shopping" class="cartIcon"/>
+            SHOPPING MENU
+        </button> 
+    </div>
+    <div class="shopMenuMobileHideBtn">
+    	<button class="slds-button menuMobileBtn"  onclick="{!c.hideMenu}">
+            <lightning:icon iconName="utility:cart" alternativeText="Shopping" class="cartIcon"/>
+            HIDE MENU
+        </button>
+    </div>
+    <div class="shopMenuOuter"> 
+        <ul class="shopMenuList"> 
+            <li class="shopMenuListItem">
+                <a href="https://www.sephora.fr/shop-shop/" id="1" style="color:white">
+                    TOUS LES PRODUITS 
+                    <img class="sfdcCbImage" src="{!$Resource.expandArrow}" />
+                </a>
+            </li> 
+            <li class="shopMenuListItem">
+                <a href="https://www.sephora.fr/nouveautes-du-mois/" id="2" style="color:white">
+                    NOUVEAUT&Eacute;S 
+                    <img class="sfdcCbImage" src="{!$Resource.expandArrow}" />
+                </a>
+            </li> 
+            <li class="shopMenuListItem">
+                <a href="https://www.sephora.fr/marques-de-a-a-z/" id="3" style="color:white">
+                    MARQUES 
+                    <img class="sfdcCbImage" src="{!$Resource.expandArrow}" />
+                </a>
+            </li> 
+            <li class="shopMenuListItem"> 
+                <a href="https://www.sephora.fr/cadeaux-idees-cadeaux/" id="4" style="color:white">
+                    CADEAUX 
+                    <img class="sfdcCbImage" src="{!$Resource.expandArrow}" />
+                </a>
+            </li> 
+            <li class="shopMenuListItem"> 
+                <a href="https://www.sephora.fr/beauty-buzz/" id="5" style="color:white">
+                    NOS S&Eacute;LECTIONS 
+                    <img class="sfdcCbImage" src="{!$Resource.expandArrow}" />
+                </a>
+            </li> 
+            <li class="shopMenuListItem"> 
+                <a href="https://www.sephora.fr/sephora-collection/SEPHO-HubPage.html" id="6" style="color:white">
+                    SEPHORA COLLECTION
+                </a>
+            </li> 
+            <li class="shopMenuListItem">
+                <a href="https://www.sephora.fr/cadeaux-bon-plan-beaute-bon-plan-beaute/" id="7" style="color:white">
+                    BON PLAN BEAUT&Eacute;
+                </a>
+            </li> 
+            <li class="shopMenuListItem">
+                <a href="https://astuces-beaute.sephora.fr/" id="8" style="color:white">
+                    #INSPIRATION
+                </a>
+            </li> 
+        </ul> 
+    </div>
+</aura:component>
